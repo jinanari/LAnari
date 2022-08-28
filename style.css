@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header{
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255,255,255,0.8);
+    z-index: 2;
+}
+
+header ul{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+header a{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.absolute {
+    position: absolute;
+    left: 70px;
+    top: 200px;
+}
+
+.firstView h1{
+ font-size: 64px;
+ letter-spacing: 0.06em;
+text-align: center;
+color: #ffffff;
+text-shadow: 1px 1px 0 #000, -1px -1px 0 #000,
+-1px 1px 0 #000, 1px -1px 0 #000,
+0px 1px 0 #000,  0-1px 0 #FFF,
+-1px 0 0 #000, 1px 0 0 #000;
+}
+
+.firstView {
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.about {
+    padding: 180px;
+}
+
+.profile h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+
+    color: #ffffff;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000,
+    -1px 1px 0 #000, 1px -1px 0 #000,
+    0px 1px 0 #000,  0-1px 0 #FFF,
+    -1px 0 0 #000, 1px 0 0 #000;
+}
+
+.profile h3{
+    font-size: 24px;
+    margin-top: 72px;
+}
+
+.profile p{
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.profile img{
+    width: 500px;
+    height: 333px;
+    margin-left: 100px;
+    background-repeat: 16px;
+    border-radius: 20px;
+}
+
+.img-wrap {
+    position: relative;
+}
+
+.img-wrap img {
+    position: absolute;    
+}
+
+.profile .profile-text{
+    width: 500px;
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.school-club{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.school-club img{
+    width: 480px;
+    height: 270px;
+    border-radius: 16px;
+}
+
+.school-club h3{
+    margin-top: 8px;
+}
+
+.school-club p{
+    margin-top: 16px;
+}
+
+.school-club a{
+    display: inline-block;
+    border-bottom: 1px solid;
+    margin-top: 32px;
+}
+
+.favorite h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    border-bottom: 3px solid #ffffff;
+    display: inline-block;
+}
+
+.favorite{
+    text-align: center;
+    padding: 180px 180px 240px 180px;
+    background-image: url(images/dot-bg.jpeg);
+    background-size: cover;
+}
+
+.favorite-content{
+    width: 300px;
+    padding: 5px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 16px;
+    margin: 15px;
+}
+
+.favorite-content img{
+    width: 290px;
+    height: 290px;
+    border-radius: 15px;
+}
+.favorite-contents{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.works {
+    padding: 180px;
+    text-align: center;
+    background-color: #c4f7ff;
+}
+
+.works h2{
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000,
+    -1px 1px 0 #000, 1px -1px 0 #000,
+    0px 1px 0 #000,  0-1px 0 #FFF,
+    -1px 0 0 #000, 1px 0 0 #000;
+    display: inline-block;
+}
+
+.works h3{
+    font-size: 28px;
+}
+
+.works-content{
+    display: flex;
+    background-color: #fff;
+    margin-top: 40px;
+    padding: 40px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    text-align: left;
+}
+
+.works-content .works-text{
+    margin-left: 32px;
+}
+
+.works p{
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.works img{
+    width: 320px;
+    height: 180px;
+}
+
+.contact{
+    padding: 180px 370px;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid #000;
+    display: inline-block;
+}
+
+.contact p{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 200%;
+    margin-top: 48px;
+    text-align: left;
+}
+
+
+.contact a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color:#ffffff;
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+.contact .sns-twitter{
+    background-color: #00acee;
+}
+
+.contact .sns-facebook{
+    background-color: #3b5998;
+}
+
+.contact .sns-website{
+    background-color: #6441a5;
+}
+
+.contact .sns{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    height: 80px;
+    background-color: #edece7;
+    line-height: 80px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
