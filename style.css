@@ -117,7 +117,7 @@ text-shadow: 1px 1px 0 #000, -1px -1px 0 #000,
 .school-club{
     margin-top: 180px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .school-club img{
@@ -267,7 +267,7 @@ text-shadow: 1px 1px 0 #000, -1px -1px 0 #000,
 .contact .sns{
     margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 footer{
