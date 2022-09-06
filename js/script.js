@@ -7,18 +7,15 @@ function setup() {
 function draw() {
     background(250, 250, 255, 20);
   
-    
     noStroke();
     fill(0, 0, 0);
   
-  
-    // ★1-3. 円を描こう（x座標とy座標は画面の中心にしよう。大きさは100）
-    for(var i = 0; i < 15; i++) {
-    ellipse(460 + i * 20 , 540, 4, 4);
-    ellipse(460 + i * 20 , 560, 4, 4);
-    ellipse(460 + i * 20 , 580, 4, 4);
-    ellipse(460 + i * 20 , 600, 4, 4);
-  }
+  //   for(var i = 0; i < 15; i++) {
+  //   ellipse(460 + i * 20 , 540, 4, 4);
+  //   ellipse(460 + i * 20 , 560, 4, 4);
+  //   ellipse(460 + i * 20 , 580, 4, 4);
+  //   ellipse(460 + i * 20 , 600, 4, 4);
+  // }
     
     fill(0, 0, random(200),70);
     rect(random(width), random(height), 5, 5);
